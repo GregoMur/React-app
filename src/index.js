@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import HomePage from './Pages/HomePage';
+// import TestPage from './Pages/TestPage'
 import UserForms from './Pages/UserForms'
 import Header from './Components/Header';
 import {BrowserRouter as Router,Route,Switch,Link} from "react-router-dom";
@@ -24,11 +25,12 @@ function App() {
           </Route>
         </Switch>
       </main>
+      
     </div>
   )
 }
 
-
+// ReactDOM.render(<App />, document.getElementById('root'));
 
 ReactDOM.render(
   <Router>
